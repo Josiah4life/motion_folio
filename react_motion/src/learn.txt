@@ -1,0 +1,15 @@
+scroll-snap-type: y mandatory
+scroll-snap-align: start
+    The top of each section is the snap point.
+Which section top is closer to the viewport top right now ?? 
+    It scrolls so that the section top is excatly at the viewport top.
+
+scroll-snap-align: center
+    The center of each section is the snap point.
+“Which section’s center is closest to the viewport center right now?”
+    It scrolls so that section’s center is exactly at the viewport center.
+
+scroll-snap-align: center
+    The center of each section is the snap point.
+Which section’s center is closest to the viewport center right now?
+    It scrolls so that section’s center is exactly at the viewport center.
