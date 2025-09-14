@@ -5,7 +5,7 @@
 
 @theme {
   --breakpoint-*: initial;
-  --breakpoint-sm: 640px ;
+  --breakpoint-sm: 640px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 960px;
   --breakpoint-xl: 1200px;
@@ -14,7 +14,7 @@
   --color-primary: #1c1c22; 
   --color-accent: #00ff99;
   --color-accent-hover: #00e187;
-  
+
 }
 
 
@@ -26,7 +26,11 @@
     @apply font-primary bg-primary text-white leading-loose;
 
     .container {
-      @apply flex justify-center p-(--spacing-custom);
+      @apply flex justify-center p-(--spacing-custom) flex-col;
+    }
+
+    .h1 {
+      @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold
     }
   }
 }
