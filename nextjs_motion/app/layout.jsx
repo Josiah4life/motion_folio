@@ -1,10 +1,9 @@
 import { Geist, Geist_Mono, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import StairTransition from "../src/components/PageTransition";
+import Header from "@/src/components/Header";
 import PageTransition from "@/components/PageTransition";
-import StairTransition from "@/components/StairTransition";
 
-//Components
-import Header from "@/components/Header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
