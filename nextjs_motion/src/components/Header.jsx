@@ -1,7 +1,7 @@
 import Link from "next/link"
-import { Button } from "./ui/button"
-import Nav from "./Nav"
 import MobileNav from "./MobileNav"
+import Nav from "./Nav"
+import { Button } from "./ui/button"
 
 const Header = () => {
     return (
@@ -10,7 +10,7 @@ const Header = () => {
                 {/* Logo */}
                 <Link href="/">
                     <h1 className="text-4xl font-semibold">
-                        Luke <span className="text-accent">.</span>
+                        Luffy <span className="text-accent">.</span>
                     </h1>
                 </Link>
 
