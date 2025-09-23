@@ -22,6 +22,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply font-primary bg-primary text-white leading-loose;
 
@@ -39,7 +40,43 @@
       @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold
     }
   }
-}
+      section {
+      @apply mt-15 xl:mt-10  
+    }  
+
+}    
+
+
+    .text-outline {
+    -webkit-text-stroke: 1px #ffffff;
+  };
+  
+  .text-outline-hover {
+    -webkit-text-stroke: 1px #00ff99;
+  }
+
+/* @layer components {
+      .text-outline {
+    -webkit-text-stroke: 1px #ffffff;
+  };
+  
+  .text-outline-hover {
+    -webkit-text-stroke: 1px #00ff99;
+  }
+} */
+
+
+
+
+/* @layer components {
+  .btn {
+    @apply px-4 py-2 rounded-lg font-semibold transition-all;
+  }
+  .btn-primary {
+    @apply bg-blue-500 text-white hover:bg-blue-600;
+  }
+} */
+
 
 
 @theme inline {
